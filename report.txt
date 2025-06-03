@@ -1,0 +1,41 @@
+# Password Security Analysis Report
+
+Overview:
+This report describes the testing of three passwords using the PasswordMonster tool to estimate password strength and resistance to brute-force attacks in terms of complexity and length.
+
+----------------------------------------------------
+1. Password: Hello123
+   - Classification: Weak
+   - Length: 8 characters
+   - Character Set: Letters (upper/lower), Number
+   - Estimated Crack Time: 0.03 seconds
+- Analysis: Short and patterns common to most people (e.g., "Hello" and low-order digits), so easily guessed.
+   - Recommendation: Steer clear of dictionary words and patterns that are predictable. Lengthen and randomize.
+
+----------------------------------------------------
+2. Password: Smile#78Life!
+   - Classification: Strong
+   - Length: 13 characters
+   - Character Set: Mixed case letters, Numbers, Symbols
+   - Estimated Crack Time: 3 years
+- Analysis: This password employs a combination of multiple character types and is of good length, making it extremely secure.
+   - Recommendation: Keep up unique and varied mixes. Do not reuse this password for many accounts.
+
+----------------------------------------------------
+3. Password: &P!$$ED#*0oF()
+   - Classification: Very Strong
+   - Length: 14 characters
+   - Character Set: Upper and lowercase letters, Numbers, Complex Symbols
+- Estimated Crack Time: 19 thousand years
+   - Analysis: This password is strongly randomized and secure against both brute-force and dictionary attacks. It does not contain frequent patterns and has rare symbols.
+   - Recommendation: Perfect password format. Store such complex passwords using a password manager.
+
+----------------------------------------------------
+Conclusion:
+Among the three test passwords:
+- One was insecure and unfit for secure accounts.
+- One was secure and complied with general password security guidelines.
+- One was extremely secure and showed excellent password health.
+
+In order to have strong security, always opt for longer passwords with different types of characters and never use personal or generic information.
+
